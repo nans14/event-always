@@ -1,0 +1,10 @@
+frontend:
+    path: .
+    publish: dist
+    scripts:
+        deploy:
+            - npm install --legacy-peer-deps
+            - npm run build
+name: Event-Always
+region: eu-central-1
+yamlVersion: 2
